@@ -116,6 +116,7 @@ class _PlaylistScreenState extends State<PlaylistScreen> {
             ),
             children: [
               PlaylistHeader(playlist: widget.playlist),
+              TracksList(tracks: widget.playlist.songs),
             ],
           ),
         ),
